@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/beige_dark"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:clickable="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/tvLetsRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/h4"
+            android:layout_marginTop="45dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="@id/tvAppName"
+            app:layout_constraintEnd_toEndOf="@id/tvAppName"
+            android:text="Let's Register"
+            android:fontFamily="@font/ubuntu_bold"
+            android:textColor="@color/light_beige"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="35sp"
+            />
+
+        <TextView
+            android:id="@+id/tvDoYouHaveAccount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/h2"
+            app:layout_constraintStart_toStartOf="@id/tvLetsRegister"
+            app:layout_constraintTop_toBottomOf="@id/tvLetsRegister"
+            app:layout_constraintEnd_toEndOf="@id/tvLetsRegister"
+            android:textAlignment="center"
+            android:textColor="@color/beige_selected"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/ubuntu_regular"
+            android:text="Do you have an account? Log in"
+            />
+
+        <EditText
+            android:id="@+id/edFirstNameRegister"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/edittextHeight"
+            app:layout_constraintStart_toStartOf="@id/guidelineRegisterLeft"
+            app:layout_constraintEnd_toEndOf="@id/guidelineRegisterRight"
+            app:layout_constraintTop_toBottomOf="@id/tvDoYouHaveAccount"
+            android:background="@drawable/ed_background"
+            android:textColor="@color/light_beige"
+            android:textColorHint="@color/beige"
+            android:fontFamily="@font/ubuntu_regular"
+            android:hint="First Name"
+            android:textStyle="normal"
+            style="@style/editText"
+            android:layout_marginTop="30dp"/>
+
+        <EditText
+            android:id="@+id/edLastNameRegister"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/edittextHeight"
+            app:layout_constraintStart_toStartOf="@id/guidelineRegisterLeft"
+            app:layout_constraintEnd_toEndOf="@id/guidelineRegisterRight"
+            app:layout_constraintTop_toBottomOf="@id/edFirstNameRegister"
+            android:background="@drawable/ed_background"
+            android:textColor="@color/light_beige"
+            android:textColorHint="@color/beige"
+            android:hint="Last name"
+            android:textStyle="normal"
+            style="@style/editText"
+            android:fontFamily="@font/ubuntu_regular"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:id="@+id/edEmailRegister"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/edittextHeight"
+            app:layout_constraintStart_toStartOf="@id/guidelineRegisterLeft"
+            app:layout_constraintEnd_toEndOf="@id/guidelineRegisterRight"
+            app:layout_constraintTop_toBottomOf="@id/edLastNameRegister"
+            android:background="@drawable/ed_background"
+            android:textColor="@color/light_beige"
+            android:textColorHint="@color/beige"
+            android:hint="Email"
+            android:textStyle="normal"
+            style="@style/editText"
+            android:fontFamily="@font/ubuntu_regular"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:id="@+id/edPasswordRegister"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/edittextHeight"
+            app:layout_constraintStart_toStartOf="@id/guidelineRegisterLeft"
+            app:layout_constraintEnd_toEndOf="@id/guidelineRegisterRight"
+            app:layout_constraintTop_toBottomOf="@id/edEmailRegister"
+            android:background="@drawable/ed_background"
+            android:textColor="@color/light_beige"
+            android:textColorHint="@color/beige"
+            android:hint="Password"
+            android:textStyle="normal"
+            style="@style/editText"
+            android:fontFamily="@font/ubuntu_regular"
+            android:inputType="textPassword"
+            android:layout_marginTop="15dp"/>
+
+        <br.com.simplepass.loadingbutton.customViews.CircularProgressButton
+            android:id="@+id/buttonRegisterRegister"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/mediumButtonHeight"
+            style="@style/blueButtonStyle"
+            app:layout_constraintTop_toBottomOf="@id/edPasswordRegister"
+            app:layout_constraintStart_toStartOf="@id/guidelineRegisterLeft"
+            app:layout_constraintEnd_toEndOf="@id/guidelineRegisterRight"
+            android:layout_marginTop="25dp"
+            android:textColor="@color/beige_dark"
+            android:fontFamily="@font/ubuntu_bold"
+            android:text="Register"
+            app:spinning_bar_color="@color/light_beige"/>
+
+        <TextView
+            android:id="@+id/tvAppName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/h3"
+            android:layout_marginTop="30dp"
+            android:drawableStart="@drawable/ic_liber_app"
+            android:textColor="@color/light_beige"
+            android:drawableTint="@color/light_beige"
+            android:drawablePadding="8dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/kefa_bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonRegisterRegister"
+            android:text="Liber App Studio"/>
+
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guidelineRegisterLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.09" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guidelineRegisterRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.91" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

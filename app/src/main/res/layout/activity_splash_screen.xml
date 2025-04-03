@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/beige_dark"
+    android:id="@+id/relative_layout">
+
+<ImageView
+    android:id="@+id/liber_app_logo"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/logo_no_background"
+    android:layout_centerVertical="true"
+    android:layout_margin="50dp"
+    android:alpha="1"
+    android:stateListAnimator="@anim/fadein"
+    app:tint="@color/light_beige" />
+
+
+</RelativeLayout>

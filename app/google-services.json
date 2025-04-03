@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "281532630634",
+    "project_id": "libershop-8d8a0",
+    "storage_bucket": "libershop-8d8a0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:281532630634:android:5251118dd9a13156082c13",
+        "android_client_info": {
+          "package_name": "com.liberapp.libershop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "281532630634-498erlfg2ruviujtih1f17lu8trpki71.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqE6vHoGXqtqWRaTJG7VBcBSQq-hc2AJ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "281532630634-498erlfg2ruviujtih1f17lu8trpki71.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
