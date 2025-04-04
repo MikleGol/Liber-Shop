@@ -7,6 +7,8 @@
 Welcome to "Liber Shop" - your virtual furniture gallery where you can discover endless possibilities to adorn your home! Our app offers a wide selection of furniture, hardware, and accessories to help you bring your design ideas to life.
 </p>
 
+<h1></h1>
+
 <h1 align="center"><img src="https://github.com/MikleGol/Liber-Shop/blob/main/LiberShop1080x1920_1.jpg" width="24%"> <img src="https://github.com/MikleGol/Liber-Shop/blob/main/LiberShop1080x1920_2.jpg" width="24%"> <img src="https://github.com/MikleGol/Liber-Shop/blob/main/LiberShop1080x1920_3.jpg" width="24%"> <img src="https://github.com/MikleGol/Liber-Shop/blob/main/LiberShop1080x1920_4.jpg" width="24%"></h1>
 
 <p>
@@ -22,7 +24,9 @@ App Features:
 
 </p>
 
-<h3 align="center"><img src="https://github.com/MikleGol/Liber-Shop/blob/main/LiberShop1080x1920_5.jpg" width="24%"> <img src="https://github.com/MikleGol/Liber-Shop/blob/main/LiberShop1080x1920_6.jpg" width="24%"> <img src="https://github.com/MikleGol/Liber-Shop/blob/main/LiberShop1080x1920_7.jpg" width="24%"></h3>
+<h1></h1>
+
+<h1 align="center"><img src="https://github.com/MikleGol/Liber-Shop/blob/main/LiberShop1080x1920_5.jpg" width="24%"> <img src="https://github.com/MikleGol/Liber-Shop/blob/main/LiberShop1080x1920_6.jpg" width="24%"> <img src="https://github.com/MikleGol/Liber-Shop/blob/main/LiberShop1080x1920_7.jpg" width="24%"></h1>
 
 <p align="center">Don't miss the opportunity to transform your home into a unique space with "Liber Shop"! Download the app now and start creating the perfect interior today!</p>
 <img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
